@@ -1,0 +1,85 @@
+{% include "header.html" %}
+
+
+{% block body %}
+
+
+<div class="panel=heading">
+
+<h2>Add Employee <a class="pull-right btn btn-success" href="/">Back</a> </h2>
+
+</div>
+
+
+
+<div class="panel-body">
+
+<form action="{{ url_for('processemployee') }}" method="post">
+<div class="form-group">
+
+    <label for="name">Employee Fname</label>
+    <input type="text" class="form-control" name="name" id="fname" required = "1"  >
+
+</div>
+
+
+
+    <div class="form-group">
+
+    <label for="name">Employee Lname</label>
+    <input type="text" class="form-control" name="email" id="lname" required = "1" >
+
+</div>
+    <div class="form-group">
+
+    <label for="name">Employee Age</label>
+    <input type="text" class="form-control" name="age"  required = "1"  >
+
+</div>
+
+<div class="form-group">
+
+    <label for="name">Employee Experience</label>
+    <input type="text" class="form-control" name="experience"  required = "1"  >
+
+</div>
+
+<div class="form-group">
+
+    <label for="name">Employee Sal</label>
+    <input type="text" class="form-control" name="sal"  required = "1"  >
+
+</div>
+
+<div class="form-group">
+
+    <label for="name">Employee Skils</label>
+    <input type="text" class="form-control" name="skils"  required = "1"  >
+
+</div>
+
+
+    <div class="form-group">
+        <input type="hidden" name="id" value="1">
+
+     <input type="hidden" name="action" value="edit">
+     <input type="submit" class="btn btn-success" name="submit" value="Add Employee">
+
+</div>
+
+
+</form>
+
+
+</div>
+
+
+
+{% endblock %}
+
+
+
+
+
+
+{% include "footer.html" %}

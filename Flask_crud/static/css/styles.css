@@ -1,0 +1,30 @@
+/* styles.css */
+
+/* Custom style for the navbar */
+.custom-navbar {
+    background-color: #007bff; /* Replace with your desired color code or name */
+}
+
+/* Change the color of the navbar links when hovered */
+.custom-navbar .nav-link:hover {
+    color: #fff; /* Replace with your desired color code or name */
+}
+
+/* Increase the font size of the navbar links */
+.custom-navbar .nav-link {
+    font-size: 30px; /* Adjust the font size as needed */
+}
+
+
+/* styles.css */
+
+/* Custom style for the search form */
+.search-form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
